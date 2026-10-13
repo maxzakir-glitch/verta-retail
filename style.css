@@ -17,3 +17,15 @@ body{background:#fff}h1,h2,h3,.hero .italic{font-family:Gilroy,Arial,sans-serif;
 
 .btn,.btn.small,.btn.light{border-radius:0}.round{border-radius:0}.contact{border-radius:0}.card-image,.product-tile{border-radius:0}.request-context{margin:25px 0 10px;padding:12px 15px;border-left:3px solid #9e101a;background:#f4f5f6;font-size:14px;color:#171717}.contact-content #contact-form{margin-top:10px}
 }
+
+/* Revision 5: rounded VERTA buttons with the white border from the reference. */
+@scope (.retail-ui){
+button,.btn,.btn.small,.btn.light,.price-link,.text-button,.round,.project-controls .round{border-radius:80px;border:1px solid rgba(255,255,255,.85);background:linear-gradient(0deg,#9e101a,#c01925);color:#fff;font-weight:700}
+button:hover,.btn:hover,.price-link:hover,.text-button:hover,.round:hover{background:linear-gradient(0deg,#8c0e17,#c01925);color:#fff}
+.hero-actions .btn{min-height:73px;padding:20px 31px;min-width:247px;justify-content:center;font-size:18px;line-height:1.2;letter-spacing:0}
+.price-link{padding:10px 15px;min-height:44px;text-align:center;margin-top:6px;font-size:12px}
+.text-button{padding:15px 24px;justify-content:center;gap:20px}.text-button span{color:#fff}
+.wide-project .text-button{border-color:rgba(255,255,255,.85);color:#fff}
+.product-tile .btn{border-radius:80px}.lead-form .btn{border:1px solid rgba(255,255,255,.85)}
+@media(max-width:700px){.hero-actions .btn{min-height:66px;width:auto;min-width:247px;font-size:16px;padding:20px 25px}.hero-actions{max-width:none;align-items:flex-start}.price-link{font-size:11px;padding:10px 12px}.header-inner{justify-content:space-between}.header-phone{display:block;font-size:13px}.header .logo{width:105px}}
+}
