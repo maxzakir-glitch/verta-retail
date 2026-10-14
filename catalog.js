@@ -8,7 +8,7 @@ window.VERTA = {
   catalogs: {bakery:[], coffee:[], drinks:[], vegetables:[], grocery:[], shelving:[], cafe:[], interior:[], 'shop-in-shop':[]},
   // Только проверенные фото с исходного сайта. Не приписывайте отделам чужие проекты.
   projects: [
-    {title:'Гипермаркет «Глобус», г. Одинцово', image:'assets/images/project-globus.webp', supermarket:true, categories:['cafe']},
+    {title:'Гипермаркет «Глобус», г. Одинцово', image:'assets/images/project-globus.webp', supermarket:true, categories:[]},
     {title:'Гипермаркет «Глобус»', image:'assets/images/project-globus-2.webp', supermarket:true, categories:[]}
   ]
 };
